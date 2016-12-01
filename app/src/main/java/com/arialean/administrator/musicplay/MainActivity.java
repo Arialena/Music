@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 new String[] {android.Manifest.permission.READ_EXTERNAL_STORAGE,
                         android.Manifest.permission.WRITE_EXTERNAL_STORAGE},
                 124);
-        File file = new File("/sdcard/music/");
+        File file = new File("/storage/emulated/0/kgmusic/download/");
         File[] files = file.listFiles();
 
         for (int i = 0; i < files.length; i++){
